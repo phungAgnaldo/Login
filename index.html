@@ -1,0 +1,37 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .login-icon {
+            background: rgba(255, 255, 255, 0.3);
+            padding: 1rem;
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="bg-green-700 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full">
+        <div class="flex justify-center mb-8">
+            <div class="login-icon">
+                <i class="fas fa-user text-white text-6xl"></i>
+            </div>
+        </div>
+        <div class="mb-4">
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" id="email" placeholder="Email" class="px-4 py-2 border rounded-lg w-full" />
+        </div>
+        <div class="mb-8">
+            <label for="password" class="sr-only">Senha</label>
+            <input type="password" id="password" placeholder="Senha" class="px-4 py-2 border rounded-lg w-full" />
+        </div>
+        <button class="bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg w-full mb-4">Entrar</button>
+        <div class="text-center">
+            <a href="#" class="text-blue-600 hover:underline">Ainda não possui uma conta</a>
+        </div>
+    </div>
+</body>
+</html>
